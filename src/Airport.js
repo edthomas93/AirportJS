@@ -1,11 +1,26 @@
 function Airport() {
-  this.planes = []
+  this.planes = [];
+  this.weather = new Weather();
 };
 
 Airport.prototype.land = function (plane) {
-  this.planes.push(plane);
+  if (this.stormy()) {
+    throw new Error('Weather too stormy to land');
+  }
+  else {
+    this.planes.push(plane);
+  };
 };
 
 Airport.prototype.launch = function (plane) {
-  this.planes.pop(plane);
+  if (this.stormy()) {
+    throw new Error('Weather too stormy to launch');
+  }
+  else {
+    this.planes.pop(plane);
+  };
+};
+
+Airport.prototype.stormy = function () {
+  return this.weather.stormy();
 };
