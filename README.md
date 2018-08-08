@@ -12,7 +12,7 @@
 
 ```
 
-### Completed by Marek Schmidt
+### Completed by Marek Schmidt and Ed Thomas
 #### Instructions below
 
 ## Context
@@ -22,7 +22,7 @@ I paired with a member of my cohort, [Ed Thomas](https://github.com/edthomas93/)
 We took a driver-navigator approach to pairing using his laptop for the entirety of the project. We used TDD with Jasmine as our testing framework in order to satisfy one user story at a time. In order to use the program, we are able to use the console from Chrome's Developer Tools while on the SpecRunner page. Using the knowledge we gained from our previous Ruby experience, we were better able to encapsulate our project and test in isolation using Jasmine mocks.
 
 ## State of project and changes to be made
-As of now, we only completed the user stories given to us for this translation. Our initial Airport Challenge project had additional "stretch goals" which have not been included. There are many opportunities to expand upon this project such as naming planes and airports, checking the airport of a current plane, launching specific planes (perhaps by name), and more. The main goal of this project, however, was to test our ability to quickly learn and adapt to a new language using our existing knowledge. 
+As of now, we only completed the user stories given to us for this translation. Our initial Airport Challenge project had additional "stretch goals" which have not been included. There are many opportunities to expand upon this project such as naming planes and airports, checking the airport of a current plane, launching specific planes (perhaps by name), and more. The main goal of this project, however, was to test our ability to quickly learn and adapt to a new language using our existing knowledge.
 
 ## How to use
 
