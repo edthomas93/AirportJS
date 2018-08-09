@@ -16,7 +16,7 @@
 #### Instructions below
 
 ## Context
-I paired with a member of my cohort, [Ed Thomas](https://github.com/edthomas93/), in order to complete this challenge in one afternoon. This is our third day working with JavaScript and Jasmine, and our goal was to translate our already existing Airport Challenge from Ruby into JavaScript.
+I paired with a member of my cohort, [Marek Schmidt](https://github.com/Mschmidt19/), in order to complete this challenge in one afternoon. This is our third day working with JavaScript and Jasmine, and our goal was to translate our already existing Airport Challenge from Ruby into JavaScript.
 
 ## Approach
 We took a driver-navigator approach to pairing using his laptop for the entirety of the project. We used TDD with Jasmine as our testing framework in order to satisfy one user story at a time. In order to use the program, we are able to use the console from Chrome's Developer Tools while on the SpecRunner page. Using the knowledge we gained from our previous Ruby experience, we were better able to encapsulate our project and test in isolation using Jasmine mocks.
